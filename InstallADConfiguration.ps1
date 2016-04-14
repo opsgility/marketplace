@@ -1,24 +1,16 @@
-Configuration Main
-{
+Param ([string] $domain, [string] $password)
 
-Param ([string] $nodeName, [string] $domain, [string] $password)
+# / Install Active Directory on to the ADVM virtual machine
 
-Import-DscResource -ModuleName PSDesiredStateConfiguration
-
-Node $nodeName
-  {
-   # / Install Active Directory on to the ADVM virtual machine
-
-$smPassword = (ConvertTo-SecureString demo@pass1 -AsPlainText -Force)
+$smPassword = (ConvertTo-SecureString $password -AsPlainText -Force)
 
 Install-WindowsFeature -Name "AD-Domain-Services" `
                        -IncludeManagementTools `
                        -IncludeAllSubFeature 
 
-Install-ADDSForest -DomainName "contoso.com" `
+Install-ADDSForest -DomainName $domain `
                    -DomainMode Win2012 `
                    -ForestMode Win2012 `
                    -Force `
                    -SafeModeAdministratorPassword $smPassword
-  }
-}
+  
