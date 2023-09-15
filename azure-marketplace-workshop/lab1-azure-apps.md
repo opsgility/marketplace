@@ -10,23 +10,23 @@
 
 1. You can optionally filter the results using the following filters.​
 
-- Filter group​
+    - Filter group​
+    
+    - Description​
+    
+    - Pricing​
 
-- Description​
-
-- Pricing​
-
-**Note:** You can filter on the following:​
-- Free – free plan, the software is provided with no additional cost, not including the cost associated with the VM instance type.​
-- Free trial - Azure virtual machine plans allow for 1, 3, or 6-month free trials. Once the free trial is over the Pay as you Go price will be charged.​
-- Bring your own license – contact the publisher to get the license for using the software​
-- Pay as you go - usage-based pricing model, can be charged per core, per core size, or per market (customer sold-to address) and core size​
-
-- Publisher Type​
-
-- Select Microsoft, Partners, or both​
-
-- Publisher name​
+    **Note:** You can filter on the following:​
+    - Free – free plan, the software is provided with no additional cost, not including the cost associated with the VM instance type.​
+    - Free trial - Azure virtual machine plans allow for 1, 3, or 6-month free trials. Once the free trial is over the Pay as you Go price will be charged.​
+    - Bring your own license – contact the publisher to get the license for using the software​
+    - Pay as you go - usage-based pricing model, can be charged per core, per core size, or per market (customer sold-to address) and core size​
+    
+    - Publisher Type​
+    
+    - Select Microsoft, Partners, or both​
+    
+    - Publisher name​
 
 1. Filter the products based on the publisher's name​
 
