@@ -15,7 +15,7 @@ These prerequisites are required before you can assign the Marketplace Admin rol
 
 1. Select Access control (IAM) to assign the Marketplace admin role.
 
-1. Shows the I A M access control screen.
+1. Shows the IAM access control screen.
 
 1. Select + Add > Add role assignment.
 
