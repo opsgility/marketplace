@@ -9,21 +9,15 @@ These prerequisites are required before you can assign the Marketplace Admin rol
 
 1. Select All services and then Marketplace.
 
-1. Select Private Marketplace from the menu on the left.
-
-1. Shows the private marketplace menu option on the left side of the Marketplace.
+1. Select Private Marketplace from the menu on the left of the Marketplace tile.
 
 1. Select Access control (IAM) to assign the Marketplace admin role.
-
-1. Shows the IAM access control screen.
 
 1. Select + Add > Add role assignment.
 
 1. Under Role, choose Marketplace Admin.
 
-1. Shows the Role assignment menu.
-
-1. Select the desired user from the dropdown list, then select Review + Assign.
+1. Within the Role assignment menu, select the desired user from the dropdown list, then select Review + Assign.
 
 
 
