@@ -23,20 +23,9 @@ These prerequisites are required before you can assign the Marketplace Admin rol
 
 1. Shows the Role assignment menu.
 
-1. Select the desired user from the dropdown list, then select Done.
+1. Select the desired user from the dropdown list, then select Review + Assign.
 
-1. Assign the Marketplace admin role with PowerShell
-Use the following PowerShell script to assign the Marketplace Admin role; it requires the following parameters:
 
-        - TenantId: The ID of the tenant in scope (Marketplace admin role is assignable on the tenant scope).
-        - SubscriptionId: A subscription of which the global admin has Contributor role or higher assigned.
-        - GlobalAdminUsername: The username of the global admin.
-        - UsernameToAssignRoleFor: The user name to which the Marketplace admin role will be assigned.
-    
-    **Note:** 
-        - For guest users invited to the tenant, it may take up to 48 hours until their account is available for assigning the Marketplace Admin role. For more information, see Properties of an Azure Active Directory B2B collaboration user.
-
-        - For more information about the cmdlets contained in the Az.Portal PowerShell module, see Microsoft Azure PowerShell: Portal Dashboard cmdlets.
 
 ## Create Private Azure Marketplace
 1. Sign in to the Azure portal.
